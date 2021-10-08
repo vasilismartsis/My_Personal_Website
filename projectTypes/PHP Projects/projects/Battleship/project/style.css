@@ -1,0 +1,476 @@
+*
+
+{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+
+	font-family: sans-serif;
+}
+
+
+#nav-bar{
+
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+
+	background-image: linear-gradient(to right, #0033FF, #ECEFF1);
+	padding: 0 !important;
+	
+}
+
+.navbar-brand img{
+
+	height: 65px;
+	padding-left: 20px;
+}
+
+
+
+.navbar-nav li a{
+
+	color: #154360 !important;
+	font-weight: 600;
+	word-spacing: 10px;
+	margin-left: 35px
+}
+
+
+#Banner{
+
+	
+	color: #154360;
+	padding top: 5%;
+}
+
+.title{
+
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 10px;
+
+}
+
+
+
+#description{
+
+	padding: 80px 0;
+}
+
+.desc-img{
+
+	width: 100px;
+	margin-top: 20px;
+}
+
+.services{
+
+	padding: 20px;
+}
+ 
+
+.services h4{
+
+
+    top: 200px;
+	padding: 5px;
+	margin-top: 25px;
+	
+}
+
+.st {
+     
+    position: relative;
+    top: 13%;
+    right: 2%;
+	width: 130px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.st1 {
+     
+    position: relative;
+    top: 13%;
+    right: 2%;
+	width: 130px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+.st2{
+
+
+    position: relative;
+    top: 21%;
+    right: 10%;
+
+}
+
+
+
+
+.st3{
+
+
+    position: relative;
+    top: 21%;
+    right: 2%;
+
+}
+
+
+
+.st4{
+
+
+    position: relative;
+    top: 20%;
+    right: 0%;
+
+}
+
+
+.signuppos{
+
+	position: absolute;
+	top: 40%;
+	right: 50%;
+	left: 46%
+}
+
+
+
+.st5{
+
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	left: 40%;
+	width: 400px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+.st6{
+
+	position: absolute;
+	top: 55%;
+	right: 50%;
+	left: 40%;
+	width: 400px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+
+.st7{
+
+	position: absolute;
+	top: 60%;
+	right: 50%;
+	left: 40%;
+	width: 400px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+.st8{
+
+
+
+	position: absolute;
+	top: 75%;
+	right: 50%;
+	left: 40%;
+	width: 400px;
+
+}
+
+
+
+.creategame{
+
+	position: absolute;
+	top: 40%;
+	right: 50%;
+	left: 50;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+
+.selectgame{
+
+	position: absolute;
+	top: 60%;
+	right: 50%;
+	left: 50;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+
+.gamename{
+	position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 0%;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+.boardcol{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 13%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+.boardrow{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 17.6%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+.boardship2{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 17.6%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+.boardship3{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 22.4%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+
+.boardship4{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 27.2%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+.boardship5{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 31.9%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+
+.boardship6{
+
+    position: absolute;
+	top: 60%;
+	right: 20%;
+	left: 36.7%;
+	width: 70px;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+
+}
+
+
+
+.creategamebut{
+   
+
+    position: absolute;
+	top: 80%;
+	right: 20%;
+	left: 36.7%;
+	width: 400px;
+	border: 2px solid #aaa;
+	height: 50px;
+
+}
+
+
+
+.inviteplayers{
+
+
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 3s;
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+
+.imageship{
+    
+    margin-left:70%;
+
+}
+
+
+
+#description{
+    color: #154360;
+	padding top: 40%;
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+An online multiplayer game where the goal is to become as big as possible by consuming smaller circles.

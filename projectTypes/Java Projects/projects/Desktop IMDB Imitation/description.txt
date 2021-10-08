@@ -1,0 +1,1 @@
+This project is a desktop application which is a partial implementation of the functionality of the site IMDb.com.

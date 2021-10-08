@@ -1,0 +1,1 @@
+A partioal implementation oa an android eshop aplication using Java.

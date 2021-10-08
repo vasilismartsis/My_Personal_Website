@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>How to show web designer and developer skills set on the website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<style type="text/css">
+    /* .skills-bar {
+        width: 100%;
+        background-color: #242424;
+        margin: 50px auto;
+        padding: 20px 20px 10px;
+        font-family: arial;
+        border-radius: 15px;
+        border: 1px solid #eee;
+        text-align: left;
+    } */
+
+    .skills-bar h2 {
+        text-align: center;
+        padding: 0px 0px 25px;
+        margin: 10px 0px 40px;
+        font-size: 30px;
+        font-weight: normal;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .skills-bar label {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+
+    .skills-bar label i {
+        font-size: 25px;
+        margin-right: 5px;
+        color: #4caf4f;
+    }
+
+    .bar {
+        height: 10px;
+        background-color: #eee;
+        margin: 8px 0px 15px;
+        border-radius: 10px;
+    }
+
+    .ui-progressbar-value {
+        height: 10px;
+        background-color: #4CAF50;
+        border-radius: 10px;
+    }
+
+    table {
+        border-collapse: separate;
+        border: solid white 1px;
+        border-radius: 15px;
+        -moz-border-radius: 6px;
+        width: 100%;
+    }
+
+    td {
+        border: solid white 1px;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2" class="skills-bar" style="width: 100%;">
+                <h1 style="color:white;">My Skills</h1>
+            </th>
+        </tr>
+        <tr>
+            <td class="skills-bar" style="width: 50%;">
+                <label><i class="fab fa-unity" aria-hidden="true"></i> Unity</label>
+                <div id="Unity" class="bar"></div>
+                <label><i class="fab fa-cuttlefish" aria-hidden="true"></i> C#</label>
+                <div id="Csharp" class="bar"></div>
+                <label><i class="fab fa-cuttlefish" aria-hidden="true"></i> C</label>
+                <div id="C" class="bar"></div>
+                <label><i class="fab fa-cuttlefish" aria-hidden="true"></i> C++</label>
+                <div id="C++" class="bar"></div>
+                <label><i class="fab fa-java" aria-hidden="true"></i> Java</label>
+                <div id="Java" class="bar"></div>
+                <label><i class="fab fa-html5" aria-hidden="true"></i> HTML</label>
+                <div id="HTML" class="bar"></div>
+                <label><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS</label>
+                <div id="CSS" class="bar"></div>
+                <label><i class="fab fa-js-square" aria-hidden="true"></i> Javascript</label>
+                <div id="Javascript" class="bar"></div>
+                <label><i class="fab fa-php" aria-hidden="true"></i> PHP</label>
+                <div id="PHP" class="bar"></div>
+            </td>
+            <td class="skills-bar" style="width: 50%;">
+                <label><i class="fab fa-raspberry-pi" aria-hidden="true"></i> Assembly</label>
+                <div id="Assembly" class="bar"></div>
+                <label><i class="fab fa-python" aria-hidden="true"></i> Python</label>
+                <div id="Python" class="bar"></div>
+                <label><i class="fas fa-cube aria-hidden=" true"></i> 3D Modeling</label>
+                <div id="3DModeling" class="bar"></div>
+                <label><i class="far fa-image" aria-hidden="true"></i> Photoshop</label>
+                <div id="Photoshop" class="bar"></div>
+                <label><i class="fas fa-video" aria-hidden="true"></i> Video Editing</label>
+                <div id="VideoEditing" class="bar"></div>
+                <label><i class="fas fa-music" aria-hidden="true"></i> Music Creation</label>
+                <div id="MusicCreation" class="bar"></div>
+                <label><i class="fab fa-linux" aria-hidden="true"></i> Linux</label>
+                <div id="Linux" class="bar"></div>
+                <label><i class="fas fa-search" aria-hidden="true"></i> Search Engines</label>
+                <div id="SearchEngines" class="bar"></div>
+                <label><i class="fas fa-user-shield" aria-hidden="true"></i> Penetration Testing</label>
+                <div id="PenetrationTesting" class="bar"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+<script type="text/javascript">
+    $(function ()
+    {
+        $("#Unity").progressbar({
+            value: 80
+        });
+        $("#Csharp").progressbar({
+            value: 90
+        });
+        $("#C").progressbar({
+            value: 70
+        });
+        $("#C++").progressbar({
+            value: 30
+        });
+        $("#Java").progressbar({
+            value: 60
+        });
+        $("#HTML").progressbar({
+            value: 90
+        });
+        $("#CSS").progressbar({
+            value: 90
+        });
+        $("#Javascript").progressbar({
+            value: 90
+        });
+        $("#PHP").progressbar({
+            value: 50
+        });
+        $("#Python").progressbar({
+            value: 70
+        });
+        $("#3DModeling").progressbar({
+            value: 40
+        });
+        $("#Photoshop").progressbar({
+            value: 60
+        });
+        $("#VideoEditing").progressbar({
+            value: 50
+        });
+        $("#MusicCreation").progressbar({
+            value: 50
+        });
+        $("#Linux").progressbar({
+            value: 70
+        });
+        $("#SearchEngines").progressbar({
+            value: 10
+        });
+        $("#PenetrationTesting").progressbar({
+            value: 10
+        });
+        $("#Assembly").progressbar({
+            value: 80
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,1 @@
+An online multiplayer fast action strategy game where the goal is to conquer all the buildings in the game starting from only one.
