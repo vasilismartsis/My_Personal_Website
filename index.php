@@ -61,7 +61,7 @@
                         I am an IT student at International Hellenic University. My current passion is creating games using the Unity game engine. I also enjoy creating full stack websites as well as desktop and mobile applications.
                         <br>
                         <br>
-                        My native language is Greek but I also hold a C2 Proficiency Certificate of Competency in English (University of Michigan), while in the meantime I try to lean German.
+                        My native language is Greek but I also hold a C2 Proficiency Certificate of Competency in English (University of Michigan), while in the meantime I try to learn German.
                         <br>
                         <br> 
                         In my free time I enjoy playing music, cycling, traveling and of course playing videogames!
